@@ -1,0 +1,14 @@
+{
+  "name": "bkvousécoute",
+  "description": "An app that detect visits in the site named \"bkvousécoute.com\" and automatically fill the form",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [ "https://www.bkvousecoute.fr/" ],
+      "js": ["clickNext.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": { "16": "bk-16.png", "128": "bk-128.png" }
+}
