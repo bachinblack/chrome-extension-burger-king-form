@@ -9,3 +9,5 @@ click on "load unpacked extension" and locate the folder containing the sources.
 The application will appears on the list below and its icon will be visible on the top-right side of the window.
 
 and the application will automatically activate when it detect the right url (https://www.bkvousecoute.fr/).
+
+![alt text](./download.png)
